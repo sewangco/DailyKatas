@@ -1,6 +1,7 @@
 //Pandemia 
 
 function infected(s) {
+    // splits the s by the X into an array of strings
     let continents = s.split('X')
     let total = 0;
     let infected = 0;

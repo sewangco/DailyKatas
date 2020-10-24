@@ -4,11 +4,13 @@ function outed(meet, boss) {
 
   for (let name in meet) {
     if (name === boss) {
+      // meet[name] get the value from the object 
       rating += meet[name] * 2;
     } else {
       rating += meet[name];
     }
   }
+  // gets the keys the from object meet 
   return rating / Object.keys(meet).length <= 5
     ? "Get Out Now!"
     : "Nice Work Champ!";
