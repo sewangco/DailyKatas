@@ -8,3 +8,10 @@ function hero(bullets, dragons){
 
 //hero(10, 5)
 // exp: true
+
+
+//alt
+
+function hero(bullets, dragons){
+    return bullets/2 >= dragons
+    }
