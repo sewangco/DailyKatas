@@ -1,0 +1,9 @@
+const arr = N => {
+    let array=[];
+    for(let i =0 ; i < N;i++){
+    array.push(i)
+    }
+    return array
+    }
+//arr(4)
+// exp: [0,1,2,3]
