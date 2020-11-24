@@ -1,6 +1,6 @@
 function rowWeights(array){
     let team =[0,0]
-    for( let ar in array){
+    for( let ar in array){q
       ar%2 === 0? 
         team[0] += array[ar] : team[1] += array[ar]
     }
