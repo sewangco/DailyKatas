@@ -7,6 +7,10 @@ function enough(cap, on, wait) {
   //alt
 
   function enough(cap, on, wait) {
+    return Math.max(wait + on - cap, 0);
+  }
+
+  function enough(cap, on, wait) {
     return wait+on >cap? wait+on -cap : 0
    }
    //enough(100, 60, 50)
