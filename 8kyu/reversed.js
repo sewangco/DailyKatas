@@ -6,5 +6,8 @@ function solution(str){
       return newArray.join('')
     }
 
+function solution(str){
+    return str.split('').reverse().join('')
+}
 //solution('world')
 // 'dlrow'
